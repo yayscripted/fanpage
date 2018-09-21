@@ -12,8 +12,14 @@ a {
 
 .main {
     height: 100%;
+    background-image: url("https://i.ytimg.com/vi/6VjWfmwwDSs/maxresdefault.jpg");
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.rightPane {
+    height: 1000px;
+    background-image: url("https://i.ytimg.com/vi/EIq-DOrYWx4/maxresdefault.jpg");
 }
