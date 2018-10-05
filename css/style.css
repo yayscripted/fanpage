@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    overflow-y: scroll;
     
 }
 a {
@@ -13,13 +14,97 @@ a {
 .main {
     height: 100%;
     background-image: url("https://i.ytimg.com/vi/6VjWfmwwDSs/maxresdefault.jpg");
+}   
+
+.aboutMain {
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
+
 .social-image{
     width: 30px;
     margin: 15px;
 }
 
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.gal {
+    background-color: white;
+}
+
 .rightPane {
-    height: 1000px;
+    width: 80%;
     background-image: url("https://i.ytimg.com/vi/EIq-DOrYWx4/maxresdefault.jpg");
+    
+}
+
+.leftPane {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbut { 
+    opacity: 0.2;
+    color: white;
+    background-color: blue;
+    margin: 50px;
+}
+
+.navbut:hover { 
+    opacity: .5;
+    color: white;
+    background-color: green;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumbnail{
+    border: 20px inset white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.thumbnail-image {
+    height: 100px;
+    width: 100px;
+}
+
+.song1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.song2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
 }
