@@ -5,8 +5,8 @@ Make sure to check off your items as you complete them. [ ] => [x]
 
 ## Day 1
 #### Planning
-- [ ] Choose a theme that you want your fan page to be about. Be careful to choose something you know and are able to write about!
-- [ ] Find the images you will need for your homepage, about page and gallery page.
+- [x] Choose a theme that you want your fan page to be about. Be careful to choose something you know and are able to write about!
+- [x] Find the images you will need for your homepage, about page and gallery page.
 #### Set-Up
 - [x] Go to the repository at https://github.com/ScriptEdcurriculum/fanpage
 - [x] Fork this repository to your github account and clone to a new workspace
